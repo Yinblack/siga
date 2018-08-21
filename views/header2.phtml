@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css"/>
+  <link rel="stylesheet" href="assets/css/slick-theme.css"/>
+  <?php if(isset($this->css)) echo $this->css; ?>
+	<link rel="stylesheet" href="assets/css/font.css">
+	<link rel="stylesheet" href="assets/css/template.css">
+	<link rel="stylesheet" href="assets/css/dev.css">
+	<link href='assets/img/icon.png' rel='shortcut icon' type='image/png'>
+	<title><?php if(isset($this->titulo)) echo $this->titulo; ?></title>
+</head>
+<body>
+
+<div class="loaderPage">
+	<div class="cSVG">
+		<img src="assets/img/loader.svg" alt="">
+	</div>
+</div>
+
+<section class="nopadding hidden-sm hidden-md hidden-lg" id="MenuHamburguer">
+	<button class="hamburger hamburger--collapse" type="button">
+	  <span class="hamburger-box">
+	    <span class="hamburger-inner"></span>
+	  </span>
+	</button>
+	<a href="index">
+		<img src="assets/img/logo.svg" class="logoMovile" alt="">
+	</a>
+</section>
+
+<section id="Menu">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-xs-12 nopadding">
+				<a href="index" class="logo">
+					<img src="assets/img/logo.svg" alt=""></a>
+				</a>
+				<ul>
+					<li><a href="index" class="<?php if(isset($this->Productos)) echo $this->Productos; ?>">Productos</a></li>
+					<li><a href="Beneficios" class="<?php if(isset($this->Beneficios)) echo $this->Beneficios; ?>">Beneficios</a></li>
+					<li><a href="Clientes" class="<?php if(isset($this->Clientes)) echo $this->Clientes; ?>">Clientes</a></li>
+					<li><a href="Precios" class="<?php if(isset($this->Precios)) echo $this->Precios; ?>">Precios</a></li>
+					<li><a href="Contacto" class="<?php if(isset($this->Contacto)) echo $this->Contacto; ?>">Contacto</a></li>
+					<li><a href="Tienda" class="<?php if(isset($this->Tienda)) echo $this->Tienda; ?>">Tienda</a></li>
+					<li><a href="Quiero-ser-partner" class="<?php if(isset($this->Partner)) echo $this->Partner; ?>">Quiero ser partner</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="SocialTop">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-xs-12 nopadding">
+				<div class="col-xs-12 col-sm-8 nopadding social">
+					<a href="#" class="col-xs-12 col-sm-4 item">
+						<img src="assets/img/icons/wp_red.svg" alt="">
+						<span class="col-xs-12"><strong style="color: #2cb742;">Whatsapp:</strong> 318 788 3380</span>
+					</a>
+					<a href="#" class="col-xs-12 col-sm-4 item">
+						<img src="assets/img/icons/sk_red.svg" alt="">
+						<span class="col-xs-12"><strong style="color: #00aaf2;">Whatsapp:</strong> 318 788 3380</span>
+					</a>
+					<a href="#" class="col-xs-12 col-sm-4 item">
+						<img src="assets/img/icons/hg_red.svg" alt="">
+						<span class="col-xs-12"><strong style="color: #01a15b;">Whatsapp:</strong> 318 788 3380</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

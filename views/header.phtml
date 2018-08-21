@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css"/>
+  <link rel="stylesheet" href="assets/css/slick-theme.css"/>
+  <?php if(isset($this->css)) echo $this->css; ?>
+	<link rel="stylesheet" href="assets/css/font.css">
+	<link rel="stylesheet" href="assets/css/template.css">
+	<link rel="stylesheet" href="assets/css/dev.css">
+	<link href='assets/img/icon.png' rel='shortcut icon' type='image/png'>
+	<title><?php if(isset($this->titulo)) echo $this->titulo; ?></title>
+	<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+</head>
+<body>
+
+<div class="loaderPage">
+	<div class="cSVG">
+		<img src="assets/img/loader.svg" alt="">
+	</div>
+</div>
+
+<section class="nopadding hidden-sm hidden-md hidden-lg" id="MenuHamburguer">
+	<button class="hamburger hamburger--collapse" type="button">
+	  <span class="hamburger-box">
+	    <span class="hamburger-inner"></span>
+	  </span>
+	</button>
+	<a href="index">
+		<img src="assets/img/logo_svg.svg" class="logoMovile" alt="">
+	</a>
+</section>
+
+<section id="Menu">
+	<div class="container-fluid bar_empresa">
+		<div class="row">
+			<div class="col-xs-12 nopadding">
+				<ul class="empresas">
+					<li>
+						<a href="Pequena-empresa" class="direct">PEQUEÑA EMPRESA</a>
+					</li>
+					<li>
+						<a href="Mediana-empresa" class="direct">MEDIANA EMPRESA</a>
+					</li>
+					<li>
+						<a href="Gran-empresa" class="direct">GRAN EMPRESA</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-xs-12 nopadding">
+				<a href="index" class="logo">
+					<img src="assets/img/logo_svg.svg" alt=""></img>
+				</a>
+				<ul class="menu">
+					<li class="sub"><a href="#">SIGA AL ÉXITO</a>
+						<ul>
+							<li class="disabled"><a href="#">SIGA AL ÉXITO...</a></li>
+							<li><a href="beneficios" class="extern">¿QUÉ HARÁ SIGA POR TI?</a></li>
+							<li class="disabled"><a href="#">PRODUCTOS</a></li>
+							<li><a href="#">FACTURACIÓN ELECTRÓNICA</a></li>
+							<li><a href="#">APLICATIVO DE VENTAS</a></li>
+							<li><a href="#">E-COMMERCE</a></li>
+							<li><a href="#">CERTIFICADOS DIGITALES</a></li>
+							<li><a href="#">CONTROL DE INVENTARIOS</a></li>
+						</ul>
+					</li>
+					<li><a href="quienes-somos" class="extern <?php if(isset($this->QuienesSomos)) echo $this->QuienesSomos; ?>">NOSOTROS</a></li>
+					<li><a href="#testimonios-clientes" class="<?php if(isset($this->Clientes)) echo $this->Clientes; ?>">CLIENTES</a></li>
+					<li><a href="#planes" class="">PLANES</a></li>
+					<li><a href="#contacto" class="<?php if(isset($this->Contacto)) echo $this->Contacto; ?>">CONTACTO</a></li>
+					<li class="sub"><a href="#">MÁS</a>
+						<ul>
+							<li><a href="videos-tutoriales" class="extern">VIDEOTUTORIALES</a></li>
+							<li><a href="#">MANUALES</a></li>
+							<li><a href="Quiero-ser-partner" class="direct">SÉ UN SOCIO SIGA</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="<?php if(isset($this->Equipos)) echo $this->Equipos; ?>">EQUIPOS</a></li>
+					<li class="social_icon">
+						<a href="https://api.whatsapp.com/send?phone=513939907" class="extern" target="_blank">
+							<img src="assets/img/icons/wp.svg" alt="">
+							+51 1 39 39 907
+							<small>VENTAS</small>
+						</a>
+					</li>
+					<li class="button">
+						<a href="prueba" class="extern">
+							DEMO GRATIS
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

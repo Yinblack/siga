@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-style: normal;
+    src: url('fonts/helvetica/Helvetica-Light.ttf');
+    src:
+        url('fonts/helvetica/Helvetica-Light.ttf')
+        format('opentype');
+}
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-style: normal;
+    src: url('fonts/helvetica/Helvetica.ttf');
+    src:
+        url('fonts/helvetica/Helvetica.ttf')
+        format('opentype');
+}
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-style: normal;
+    src: url('fonts/helvetica/Helvetica-Bold.ttf');
+    src:
+        url('fonts/helvetica/Helvetica-Bold.ttf')
+        format('opentype');
+}
+@font-face {
+  font-family: 'iconmonstr-iconic-font';
+  src: url('iconmonstr/iconmonstr-iconic-font.woff2?v=1.3.0') format('woff2'), url('iconmonstr/iconmonstr-iconic-font.woff?v=1.3.0') format('woff'), url('iconmonstr/iconmonstr-iconic-font.ttf?v=1.3.0') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body p,
+body span,
+body label,
+body{
+  font-family: 'Varela Round', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  font-weight: 400;
+  color: #363636;
+  line-height: 1.5;
+}
+.open{
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none !important;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+a:hover{
+    color: #ff8f00;
+}
+h1,h2,h3,h4,h5{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p.light,label.light,a.light,span.light,h1.light,h2.light,h3.light,h4.light,h5.light,a.light,button.light,li.light
+{
+    font-weight: 300;
+}
+p.regular,label.regular,a.regular,span.regular,h1.regular,h2.regular,h3.regular,h4.regular,h5.regular,a.regular,button.regular,li.regular
+{
+    font-weight: 400;
+}
+p.semi-bold,label.semi-bold,a.semi-bold,span.semi-bold,h1.semi-bold,h2.semi-bold,h3.semi-bold,h4.semi-bold,h5.semi-bold,a.semi-bold,button.semi-bold,li.semi-bold
+{
+    font-weight: 600;
+}
+p.bold,label.bold,a.bold,span.bold,h1.bold,h2.bold,h3.bold,h4.bold,h5.bold,a.bold,button.bold,li.bold
+{
+    font-weight: 700;
+}
+p.extra-bold,label.extra-bold,a.extra-bold,span.extra-bold,h1.extra-bold,h2.extra-bold,h3.extra-bold,h4.extra-bold,h5.extra-bold,a.extra-bold,button.extra-bold,li.extra-bold
+{
+    font-weight: 800;
+}
+h1{
+    font-size: 42px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 16px;
+}
+.textWhite{
+    color: #FFFFFF;
+}
+.textRed{
+    color: #e82042;
+}
+.textBlue{
+    color: #2770b5;
+}
+.textOrange{
+    color: #f9a649;
+}
+
+@media (max-width : 1200px) {
+
+}
+
+@media (max-width : 991px) {
+
+}
+
+@media (max-width : 768px) {
+
+}
+
+@media (max-width : 480px) {
+    h1, h2, h3, h4, h5, p, span, label{
+        width: 100%;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width : 400px) {
+
+}

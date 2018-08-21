@@ -1,0 +1,515 @@
+section#SocialTop {
+  background-color: #ffdee5 !important;
+  padding: 0px;
+  top: 82px;
+}
+section#SocialTop div.social a.item>span>strong {
+    color: #e82042 !important;
+}
+div.SocialTop{
+
+}
+div.social{
+  float: right;
+}
+div.social>a.item{
+padding: 10px 0px;
+}
+div.social>a.item>img{
+  display: inline-block;
+  position: absolute;
+  width: 25px;
+  margin: auto 0px;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+}
+div.social>a.item>span{
+  display: inline-block;
+      position: relative;
+      float: left;
+      width: 100%;
+      padding: 0px;
+      padding-left: 20px;
+}
+
+a.btn1{
+    background-color: transparent !important;
+    border: 1px solid #9c27b0 !important;
+    color: #9c27b0 !important;
+}
+a.btn1:hover{
+    background-color: #9c27b0 !important;
+    color: #FFF !important;
+}
+a.btn2{
+    background-color: #e82042 !important;
+    border: 1px solid #e82042 !important;
+    color: #FFFFFF !important;
+}
+a.btn2:hover{
+    background-color: transparent !important;
+    color: #e82042 !important;
+}
+
+
+section#beneficios{
+
+}
+section#beneficios div.containerItemSlide>div.content_arrows{
+    height: 250px;
+}
+section#beneficios div.containerItemSlide>div.content_arrows>div:nth-child(1){
+    margin-top: 50px;
+}
+section#beneficios div.containerItemSlide>div.content_arrows>div:nth-child(2){
+    margin-top: 45px;
+}
+section#beneficios div.containerItemSlide>div.content_arrows>div.arrows{
+
+}
+section#beneficios div.containerItemSlide>div.content_arrows>div.arrows>a{
+    display: inline-block;
+    position: relative;
+    width: auto;
+}
+section#beneficios div.containerItemSlide>div.content_arrows>div.arrows>a>img{
+    display: inline-block;
+    position: relative;
+    float: left;
+    height: 50px;
+}
+section#beneficios div.containerItemSlide>div.content_arrows>div.arrows>a:nth-child(1)>img{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+section#beneficios div.containerItemSlide div#slideTips{
+
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide{
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 5px solid #f2f9ff;
+    outline: none;
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide>div{
+    height: 250px;
+    width: 350px;
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide>div span{
+    color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: auto;
+    padding: 2px 10px;
+    font-size: 16px;
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide>div h4{
+
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide>div p{
+
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide>div span.backGreen{
+    background-color: #009688;
+}
+section#beneficios div.containerItemSlide div#slideTips div.itemSlide>div span.backPink{
+    background-color: #f50057;
+}
+section#beneficios div.more{
+    padding: 30px 0px;
+}
+section#beneficios div.more>a{
+    color: #e82042;
+    text-align: center;
+    border-width: 2px 0px 2px 0px;
+    border-color: #e82042;
+    border-style: solid;
+    padding: 6px 0px;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+section#beneficios div.more>a:hover{
+    color: #009688;
+}
+
+
+section#postventa{
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section#testimonios div.item>div>div {
+    padding-left: 210px !important;
+    padding-right: 0px !important;
+    height: 210px !important;
+    background-color: #e82042 !important;
+}
+section#testimonios div.item>div>img {
+    width: 210px !important;
+}
+section#testimonios div.item>div>div>div>span{
+    margin-left: 25px !important;
+}
+section#testimonios div.item>div>div>img {
+    left: 155px !important;
+}
+section#testimonios div.item>div>div>div>a {
+    background-color: #b20d30 !important;
+}
+section#testimonios div.item>div>div>div {
+    border-top: 1px solid #b20d30 !important;
+}
+section#testimonios div.containerSlideTestimonios{
+    padding-left: 0px;
+    padding-right: 45px;
+}
+section#testimonios div.controls{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 30px;
+}
+section#testimonios div.controls>div.line{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #e82042;
+    margin: auto;
+}
+section#testimonios div.controls a.item{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 30px;
+    margin: 10px 0px;
+}
+section#testimonios div.controls a.item>svg{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+section#testimonios div.controls a.item>svg>rect.st1{
+    fill: #c9c9c9;
+}
+section#testimonios div.controls a.item>svg>rect.st0{
+    fill: #F2F9FF;
+    stroke: #c9c9c9;
+    stroke-width: 6;
+    stroke-miterlimit: 10;
+}
+section#testimonios div.controls a.item.active>svg>rect.st0{
+    fill:#F2F9FF;
+    stroke:#E82042;
+    stroke-width:6;
+    stroke-miterlimit:10;
+}
+section#testimonios div.controls a.item.active>svg>rect.st1{
+    fill:#E82042;
+}
+
+section#testimonios div.containerSlideClientes div#slideIconClientes div.itemSlideIconCliente{
+    padding: 5px 15px;
+    outline: none;
+}
+section#testimonios div.containerSlideClientes div#slideIconClientes div.itemSlideIconCliente>div{
+    width: 100%;
+    height: 185px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+section#testimonios div.containerSlideClientes div#slideIconClientes div.itemSlideIconCliente>div img{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+section#testimonios div.containerSlideClientes div#slideIconClientes div.itemSlideIconCliente>div h4{
+    width: 200px;
+}
+
+
+section#precios{
+
+}
+section#precios div.control_precios{
+
+}
+section#precios div.control_precios>a{
+    width: 250px;
+    height: 175px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+section#precios div.control_precios>a>div{
+    opacity: .5;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+section#precios div.control_precios>a.active>div{
+    opacity: 1;
+}
+section#precios div.control_precios>a img{
+    width: 125px;
+}
+section#precios div.control_precios>a h4{
+
+}
+
+section#precios div#slide_precios{
+    padding: 65px 0px 15px 0px;
+}
+section#precios div#slide_precios div.item_slide_precio{
+    border: 1px solid #b20d30;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    outline: none;
+    margin: 30px 0px;
+}
+section#precios div#slide_precios div.item_slide_precio>div{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div{
+    height: 450px;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 340px;
+    height: 500px;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div img{
+    width: 90px;
+    padding: 15px 0px;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div h4{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div h3{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div ul{
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div ul>li{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 2px 0px;
+    color: #8da3c2;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+section#precios div#slide_precios div.item_slide_precio>div>div.info{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>span{
+    padding-bottom: 15px;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>div{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>div>input{
+
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>div>div{
+    padding-bottom: 0px !important;
+}
+section#precios div#slide_precios div.item_slide_precio div.rangeslider{
+    height: 8px;
+}
+section#precios div#slide_precios div.item_slide_precio div.rangeslider>div.rangeslider__fill{
+    background-color: #e82042;
+}
+section#precios div#slide_precios div.item_slide_precio div.rangeslider>div.rangeslider__handle{
+    top: -9px;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+}
+section#precios div#slide_precios div.item_slide_precio div.rangeslider>div.rangeslider__handle:after{
+    background-color: #e41f41;
+    width: 15px;
+    height: 15px;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>div>div>span{
+    display: inline-block;
+    position: absolute;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>div>div>span.active{
+    color: #091b26;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div>div>div>span:nth-child(1){
+    left: 0;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(1)>div>div>span:nth-child(2){
+    left: 33%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(1)>div>div>span:nth-child(3){
+    left: 66%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(2)>div>div>span:nth-child(2){
+    left: 25%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(2)>div>div>span:nth-child(3){
+    left: 50%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(2)>div>div>span:nth-child(4){
+    left: 75%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(3)>div>div>span:nth-child(2){
+    left: 16.6%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(3)>div>div>span:nth-child(3){
+    left: 33.3%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(3)>div>div>span:nth-child(4){
+    left: 50%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(3)>div>div>span:nth-child(5){
+    left: 66.6%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw:nth-child(3)>div>div>span:nth-child(6){
+    left: 83.3%;
+}
+section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw>div>div>span:last-child{
+    right: 0px;
+}
+section#precios div#slide_precios div.item_slide_precio div.radios{
+
+}
+section#precios div#slide_precios div.item_slide_precio div.radios span{
+
+}
+section#precios div#slide_precios div.item_slide_precio div.radios label{
+    padding: 5px 0px;
+    text-align: left;
+}
+section#precios div#slide_precios div.item_slide_precio div.radios input{
+display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 5px;
+    margin: auto 0px;
+}
+
+
+
+
+
+
+
+
+@media (max-width : 1200px) {
+    section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div{
+        width: 280px;
+    }
+    section#precios div.control_precios>a {
+        width: 220px;
+    }
+    section#beneficios div.containerItemSlide>div.content_arrows>div:nth-child(2) {
+        margin-top: 1px;
+    }
+}
+
+@media (max-width : 991px) {
+    section#testimonios div.item>div>div>div.heitheen>div>div {
+        padding: 0px 0px 0px 45px !important;
+    }
+    section#testimonios div.item>div>div>div>span, section#testimonios div.item>div>div>div>a {
+        padding: 5px 5px !important;
+    }
+    section#precios div#slide_precios div.item_slide_precio>div>div.info>div>div.rw>div>div>span:last-child{
+        right: 0px;
+        display: none;
+    }
+    section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div {
+        width: 220px;
+    }
+    section#precios div.control_precios>a {
+        width: 170px;
+    }
+}
+
+@media (max-width : 768px) {
+    section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div {
+        top: auto;
+        bottom: 0px;
+        width: 340px;
+        height: 500px;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width : 480px) {
+    section#testimonios div.item>div>div>img {
+        left: 15px !important;
+    }
+    section#testimonios div.item>div>div>div {
+        left: 0px !important;
+    }
+    section#testimonios div.item>div>div {
+        padding-left: 75px !important;
+    }
+}
+
+@media (max-width : 400px) {
+    section#precios div#slide_precios div.item_slide_precio>div>div.start_info>div {
+        width: 100%;
+    }
+    section#precios div.control_precios>a {
+        width: 150px;
+    }
+}
